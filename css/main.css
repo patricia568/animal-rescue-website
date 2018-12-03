@@ -1,0 +1,18 @@
+html {
+  font-family: 'Martel Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.banner {
+  background:
+      url("../images/banner.jpg") no-repeat center top / cover;
+      height: 25em;
+}
+
+.banner-content {
+  width: 20em;
+  top: 50%;
+}
