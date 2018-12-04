@@ -25,11 +25,39 @@ img {
 
 nav li {
   text-align: center;
+  cursor: pointer;
 }
+
+ol li {
+  background-color: none;
+  padding: 0;
+}
+
+.btn-nav {
+  color: gray;
+  border: none;
+  text-decoration: none;
+}
+nav li a {
+  display: block;
+}
+
+nav li:hover {
+  background-color: gray;
+}
+
+nav li .btn-nav:hover {
+  color: #fff;
+}
+
+nav li {
+}
+
+
 
 @media only screen and (min-width: 38em) {
 
-  nav li {
+  nav {
     text-align: right;
   }
 
