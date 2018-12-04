@@ -8,11 +8,29 @@ img {
 
 .banner {
   background:
-      url("../images/banner.jpg") no-repeat center top / cover;
-      height: 25em;
+    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 85%,
+    url("../images/banner-.jpg") no-repeat center top / cover;
+    height: 25em;
 }
 
 .banner-content {
   width: 15em;
+  bottom: 10%;
+  right: 10%;
+}
+
+.banner-content p {
+  color: #fff;
+}
+
+nav li {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    text-align: right;
+  }
 
 }
