@@ -53,7 +53,17 @@ nav li .btn-nav:hover {
 nav li {
 }
 
+.logo-container {
+  text-align: center;
+}
 
+@media only screen and (min-width: 25em) {
+
+  .logo-container {
+    text-align: left;
+  }
+
+}
 
 @media only screen and (min-width: 38em) {
 
