@@ -1,5 +1,9 @@
 html {
-  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Abel', sans-serif;
+}
+
+h3 {
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 img {
@@ -8,7 +12,7 @@ img {
 
 .banner {
   background:
-    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 85%,
+    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
     url("../images/banner-.jpg") no-repeat center top / cover;
     height: 25em;
 }
@@ -27,10 +31,10 @@ img {
 nav li {
   text-align: center;
   cursor: pointer;
+  transition: all 300ms linear;
 }
 
 ol li {
-  background-color: none;
   padding: 0;
 }
 
@@ -41,6 +45,7 @@ ol li {
 }
 nav li a {
   display: block;
+  transition: all 300ms linear;
 }
 
 nav li:hover {
@@ -51,11 +56,68 @@ nav li .btn-nav:hover {
   color: #fff;
 }
 
-nav li {
+.btn-ghost {
+  transition: all 300ms linear;
+  border-radius: 0;
+  border: none;
+  background-color: none;
+  background-color: rgba(189, 156, 66, .7)
 }
 
 .logo-container {
   text-align: center;
+}
+
+.info-p {
+  border-bottom: 1px solid rgba(189, 156, 66, .7);
+}
+
+.icon-saver {
+  animation: scale 1.5s ease alternate infinite;
+}
+
+@keyframes scale {
+
+  0% {
+    transform: scale(.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.icon-steth {
+  animation: scale-2 1.5s 0.5s ease alternate infinite;
+}
+
+@keyframes scale-2 {
+
+  0% {
+    transform: scale(.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.icon-heart {
+  animation: scale-3 1.5s 1s ease alternate infinite;
+}
+
+@keyframes scale-3 {
+
+  0% {
+    transform: scale(.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
