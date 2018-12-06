@@ -13,7 +13,7 @@ img {
 .banner {
   background:
     linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
-    url("../images/banner-.jpg") no-repeat center top / cover;
+    url("../images/banner-lion.jpg") no-repeat center top / cover;
     height: 25em;
 }
 
