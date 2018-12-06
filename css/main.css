@@ -127,6 +127,7 @@ nav li .btn-nav:hover {
 
 .main-card:hover {
   transform: scale(1.05);
+  z-index: 2;
 }
 
 .main-card-content {
@@ -134,10 +135,18 @@ nav li .btn-nav:hover {
   transition: all 250ms ease;
   height: 100%;
   width: 100%;
+  padding: 1em;
+  background:
+    linear-gradient(to bottom, rgba(189, 156, 66, .9), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%;
+    color: #fff;
 }
 
 .main-card-content:hover {
   opacity: 1;
+}
+
+.card-img {
+  z-index: -5;
 }
 
 @media only screen and (min-width: 25em) {
