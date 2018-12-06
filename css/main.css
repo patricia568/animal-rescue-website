@@ -10,6 +10,8 @@ img {
   width: 100%;
 }
 
+/* banner stuff */
+
 .banner {
   background:
     linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
@@ -28,6 +30,16 @@ img {
   color: #fff;
 }
 
+.btn-ghost {
+  transition: all 300ms linear;
+  border-radius: 0;
+  border: none;
+  background-color: none;
+  background-color: rgba(189, 156, 66, .7)
+}
+
+/* navigation stuff */
+
 nav li {
   text-align: center;
   cursor: pointer;
@@ -43,6 +55,7 @@ ol li {
   border: none;
   text-decoration: none;
 }
+
 nav li a {
   display: block;
   transition: all 300ms linear;
@@ -56,17 +69,11 @@ nav li .btn-nav:hover {
   color: #fff;
 }
 
-.btn-ghost {
-  transition: all 300ms linear;
-  border-radius: 0;
-  border: none;
-  background-color: none;
-  background-color: rgba(189, 156, 66, .7)
-}
-
 .logo-container {
   text-align: center;
 }
+
+/* icon stuff */
 
 .info-p {
   border-bottom: 1px solid rgba(189, 156, 66, .7);
@@ -120,6 +127,8 @@ nav li .btn-nav:hover {
 
 }
 
+/* card stuff */
+
 .main-card {
   transition: all 250ms ease;
   overflow: hidden;
@@ -148,6 +157,8 @@ nav li .btn-nav:hover {
 .card-img {
   z-index: -5;
 }
+
+/* media screen stuff */
 
 @media only screen and (min-width: 25em) {
 
