@@ -176,6 +176,25 @@ nav li .btn-nav:hover {
     height: 25em;
 }
 
+/* form stuff */
+
+input[type="radio"]:checked + label {
+  color: #5d5f63;
+}
+
+.form-item {
+  border: .5px solid #5d5f63;
+  height: 3em;
+}
+
+.radio-btn {
+  transition: all 250ms ease;
+}
+
+.radio-btn:hover {
+  color: gray;
+}
+
 /* rescues page stuff */
 
 .banner-deer {

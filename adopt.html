@@ -41,11 +41,155 @@
   <div class="grid banner-bear relative push-2">
     <div class="unit xs-1 s-1 m-1 l-1 xl-1 banner-content pin-right-bottom text-right">
       <p class="mega">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <div>
-        <a class="btn btn-ghost" href="#">Adopt now</a>
-      </div>
     </div>
   </div>
+
+  <!-- form stuff -->
+
+  <main>
+    <section>
+      <form class="unit xs-1 s-1 m-1 l-1 xl-1 island wrapper" method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
+        <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 push-2">
+          <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">Applicant's Personal Information</legend>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="first-name">First name</label>
+                <input id="first-name" name="name" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="last-name">Last name</label>
+                <input id="last-name" name="name" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="tel">Phone number</label>
+                <input id="tel" type="tel" name="tel" class="form-item">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="birthdate">Date of birth</label>
+                <input id="birthdate" type="date" class="form-item" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="country">Country</label>
+                <select id="country" name="country" class="form-item">
+                  <option label="country" value="">Select a country</option>
+                  <option>Canada</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="province">Select a Province</label>
+                <select id="province" name="province" class="form-item">
+                  <option label="province" value="">Select a province</option>
+                  <option>Ontario</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="region">Select an Ottawa region</label>
+                <select id="region" name="region" class="form-item">
+                  <option label="region" value="">Select an Ottawa region</option>
+                  <option>Old city of Ottawa</option>
+                  <option>Gloucester</option>
+                  <option>Kanata</option>
+                  <option>Nepean</option>
+                  <option>Osgoode Township</option>
+                  <option>Rideau Township</option>
+                  <option>West Carleton Township</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="address">Address</label>
+                <input id="address" type="address" name="address" class="form-item">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2">
+                <label for="postal">Postal Code</label>
+                <input id="postal" type="postal" name="postal" class="form-item" required>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="grid push-2">
+          <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">Residence Questionnaire</legend>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+            <label for="residence">Please select one of the following that best describes your current living arrangements.</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <div class="grid push">
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                <input type="radio" id="rent" name="residence">
+                <label class="push-1-2" for="rent">I rent my home</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                <input type="radio" id="own" name="residence">
+                <label class="push-1-2" for="own">I own my home</label>
+              </div>
+              <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                <input type="radio" id="live-with-others" name="residence">
+                <label for="live-with-others">I live with others who rent/own</label>
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+              <label for="moving">Do you plan on moving in the near future?</label>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                  <input type="radio" id="yes" name="moving">
+                  <label class="push-1-2" for="yes">Yes</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                  <input type="radio" id="no" name="moving">
+                  <label class="push-1-2" for="no">No</label>
+                </div>
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+              <label for="yard">Do you have a yard?</label>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                  <input type="radio" id="yes-2" name="yard">
+                  <label class="push-1-2" for="yes-2">Yes</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 radio-btn">
+                  <input type="radio" id="no-2" name="yard">
+                  <label class="push-1-2" for="no-2">No</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="grid push-2">
+          <legend class="unit xs-1 s-1 m-1 l-1 xl-1 peta push-1-2">Health Plan Questionnaire</legend>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+            <label for="health">How will the pet be exercised?</label>
+            <textarea class="form-item" id="health" name="health"></textarea>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+            <label for="environment">What type of environment will the pet be left in when left alone?</label>
+            <textarea class="form-item" id="environment" name="environment"></textarea>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+            <label for="vet">Where will the pet be taken when health care is needed?</label>
+            <textarea class="form-item" id="vet" name="vet"></textarea>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+            <label for="training">How much training will the pet receive?</label>
+            <textarea class="form-item" id="training" name="training"></textarea>
+          </div>
+        </fieldset>
+        <div class="push">
+          <label class="peta push-1-2 bold" for="comments">Additional comments<i class="not-bold kilo"> (optional)</i></label>
+          <textarea class="form-item" id="comments" name="comments"></textarea>
+        </div>
+        <button class="btn btn-ghost page-btn" type="submit">SUBMIT</button>
+      </form>
+    </section>
+  </main>
 </body>
 
 </html>
