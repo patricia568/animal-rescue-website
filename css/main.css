@@ -179,11 +179,12 @@ nav li .btn-nav:hover {
 /* form stuff */
 
 input[type="radio"]:checked + label {
-  color: #5d5f63;
+  color: rgba(189, 156, 66);
 }
 
 .form-item {
   border: .5px solid #5d5f63;
+  background-color: rgba(189, 156, 66, .1);
   height: 3em;
 }
 
@@ -192,7 +193,7 @@ input[type="radio"]:checked + label {
 }
 
 .radio-btn:hover {
-  color: gray;
+  color: rgba(189, 156, 66);
 }
 
 /* rescues page stuff */
