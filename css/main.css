@@ -12,7 +12,7 @@ img {
 
 /* banner stuff */
 
-.banner {
+.banner-lion {
   background:
     linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
     url("../images/banner-lion.jpg") no-repeat center top / cover;
@@ -63,6 +63,10 @@ nav li a {
 
 nav li:hover {
   background-color: gray;
+}
+
+nav li:active {
+  background-color: #5d5f63;
 }
 
 nav li .btn-nav:hover {
@@ -156,6 +160,15 @@ nav li .btn-nav:hover {
 
 .card-img {
   z-index: -5;
+}
+
+/* adopt page stuff */
+
+.banner-bear {
+  background:
+    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
+    url("../images/banner-bear.jpg") no-repeat center top / cover;
+    height: 25em;
 }
 
 /* media screen stuff */
