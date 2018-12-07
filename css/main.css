@@ -171,6 +171,16 @@ nav li .btn-nav:hover {
   background-color: rgba(189, 156, 66, .9);
   width: 100%;
   height: 97%;
+  transition: all 250ms ease;
+}
+
+.blank-card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.blank-card-content {
+  color: #fff;
 }
 
 /* adopt page stuff */
@@ -222,6 +232,15 @@ input[type="radio"]:checked + label {
   .banner-content {
     width: auto;
     max-width: 25em;
+  }
+
+  header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 400;
+    background-color: #fff;
   }
 
 }
