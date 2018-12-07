@@ -77,6 +77,11 @@ nav li .btn-nav:hover {
   text-align: center;
 }
 
+.current {
+  background-color: #5d5f63;
+  color: #fff;
+}
+
 /* icon stuff */
 
 .info-p {
@@ -168,6 +173,15 @@ nav li .btn-nav:hover {
   background:
     linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
     url("../images/banner-bear.jpg") no-repeat center top / cover;
+    height: 25em;
+}
+
+/* rescues page stuff */
+
+.banner-deer {
+  background:
+    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
+    url("../images/banner-deer.jpg") no-repeat center top / cover;
     height: 25em;
 }
 
