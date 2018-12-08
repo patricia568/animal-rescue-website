@@ -40,6 +40,11 @@ img {
 
 /* navigation stuff */
 
+.logo-link {
+  text-decoration: none;
+  color: #5d5f63;
+}
+
 nav li {
   text-align: center;
   cursor: pointer;
@@ -80,6 +85,10 @@ nav li .btn-nav:hover {
 .current {
   background-color: #5d5f63;
   color: #fff;
+}
+
+header {
+  background-color: #f9f7ef;
 }
 
 /* icon stuff */
@@ -137,6 +146,11 @@ nav li .btn-nav:hover {
 }
 
 /* card stuff */
+
+.info-narc {
+  border-top: 1px solid rgba(189, 156, 66, .7);
+  border-bottom: 1px solid rgba(189, 156, 66, .7);
+}
 
 .main-card {
   transition: all 250ms ease;
@@ -234,21 +248,20 @@ input[type="radio"]:checked + label {
     max-width: 25em;
   }
 
-  header {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 400;
-    background-color: #fff;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
 
   nav {
     text-align: right;
+  }
+
+  header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 400;
   }
 
 }
