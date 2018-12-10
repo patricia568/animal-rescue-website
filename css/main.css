@@ -34,7 +34,6 @@ img {
   transition: all 300ms linear;
   border-radius: 0;
   border: none;
-  background-color: none;
   background-color: rgba(189, 156, 66, .7)
 }
 
@@ -188,6 +187,11 @@ header {
   transition: all 250ms ease;
 }
 
+.blank-card-1 {
+  width: 100%;
+  height: 100%;
+}
+
 .blank-card:hover {
   transform: scale(1.05);
   z-index: 2;
@@ -214,7 +218,7 @@ input[type="radio"]:checked + label {
 
 .form-item {
   border: .5px solid #5d5f63;
-  background-color: rgba(189, 156, 66, .1);
+  background-color: #f7eed4;
   height: 3em;
 }
 
@@ -223,7 +227,7 @@ input[type="radio"]:checked + label {
 }
 
 .radio-btn:hover {
-  color: rgba(189, 156, 66);
+  color: #bd9c42;
 }
 
 /* rescues page stuff */
@@ -233,6 +237,10 @@ input[type="radio"]:checked + label {
     linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
     url("../images/banner-deer.jpg") no-repeat center top / cover;
     height: 25em;
+}
+
+.rescue-card {
+  background-color:
 }
 
 /* media screen stuff */
