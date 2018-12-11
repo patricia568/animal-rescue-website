@@ -231,7 +231,7 @@ header {
 /* form stuff */
 
 input[type="radio"]:checked + label {
-  color: rgba(189, 156, 66);
+  color: #bd9c42;
 }
 
 .form-item {
