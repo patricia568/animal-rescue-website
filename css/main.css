@@ -257,14 +257,20 @@ input[type="radio"]:checked + label {
     height: 25em;
 }
 
-.rescue-card {
-  background-color:
-}
-
 footer {
   background-color: #f7eed4;
 }
 
+.rescue-card {
+  background-color: #f7eed4;
+  border: 1px solid #bd9c42;
+  transition: all 250ms ease;
+}
+
+.rescue-card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
 /* media screen stuff */
 
 @media only screen and (min-width: 25em) {
