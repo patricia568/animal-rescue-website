@@ -28,13 +28,12 @@ h2 {
 img {
   width: 100%;
 }
+
 /* banner stuff */
 
 .banner-lion {
-  background:
-    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
-    url("../images/banner-lion.jpg") no-repeat center top / cover;
-    height: 25em;
+  background: linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%, url("../images/banner-lion.jpg") no-repeat center top / cover;
+  height: 25em;
 }
 
 .banner-content {
@@ -52,7 +51,7 @@ img {
   transition: all 300ms linear;
   border-radius: 0;
   border: none;
-  background-color: rgba(189, 156, 66, .7)
+  background-color: rgba(189, 156, 66, .7);
 }
 
 /* navigation stuff */
@@ -132,7 +131,7 @@ header {
 }
 
 .icon-steth {
-  animation: scale-2 1.5s 0.5s ease alternate infinite;
+  animation: scale-2 1.5s .5s ease alternate infinite;
 }
 
 @keyframes scale-2 {
@@ -222,10 +221,8 @@ header {
 /* adopt page stuff */
 
 .banner-bear {
-  background:
-    linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%,
-    url("../images/banner-bear.jpg") no-repeat center top / cover;
-    height: 25em;
+  background: linear-gradient(to top, rgba(189, 156, 66, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%, url("../images/banner-bear.jpg") no-repeat center top / cover;
+  height: 25em;
 }
 
 /* form stuff */
@@ -270,6 +267,7 @@ footer {
   transform: scale(1.05);
   z-index: 2;
 }
+
 /* media screen stuff */
 
 @media only screen and (min-width: 25em) {
