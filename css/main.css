@@ -1,14 +1,15 @@
 html {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .skip-links {
   margin: 0;
-  padding: 0; list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .skip-links a {
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   position: absolute;
   top: -3em;
   background-color: #000;
@@ -21,7 +22,7 @@ html {
 }
 
 h2 {
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
 }
 
 img {
@@ -131,7 +132,7 @@ header {
 }
 
 .icon-steth {
-  animation: scale-2 1.5s 0.5s ease alternate infinite;
+  animation: scale-2 1.5s 0.5s ease; alternate infinite;
 }
 
 @keyframes scale-2 {
@@ -185,9 +186,8 @@ header {
   height: 100%;
   width: 100%;
   padding: 1em;
-  background:
-    linear-gradient(to bottom, rgba(189, 156, 66, .9), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%;
-    color: #fff;
+  background: linear-gradient(to bottom, rgba(189, 156, 66, .9), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%;
+  color: #fff;
 }
 
 .main-card-content:hover {
@@ -262,8 +262,7 @@ footer {
 }
 
 .rescue-card {
-  background:
-    linear-gradient(to bottom, rgba(189, 156, 66, .7), rgba(189, 156, 66, .2)) no-repeat center bottom / 100% 100%;
+  background: linear-gradient(to bottom, rgba(189, 156, 66, .7), rgba(189, 156, 66, .2)) no-repeat center bottom / 100% 100%;
   transition: all 250ms ease;
 }
 
